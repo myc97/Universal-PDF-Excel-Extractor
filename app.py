@@ -1,35 +1,3 @@
-```python
-# ============================================================
-# NEET UNIVERSAL PDF → EXCEL EXTRACTOR
-# ============================================================
-#
-# Extraction priority:
-#
-# 1. Searchable PDF
-#       ├── PyMuPDF text blocks
-#       ├── Proven fixed-position extraction
-#       ├── Header-position adaptive extraction
-#       ├── Coordinate/X-position extraction
-#       └── pdfplumber table extraction
-#
-# 2. Scanned PDF
-#       └── OCR + adaptive row extraction
-#
-# Features:
-#   - Different counselling PDF formats
-#   - Non-table text PDFs
-#   - Table PDFs
-#   - Scanned PDFs
-#   - College heading detection
-#   - College carry-forward
-#   - Automatic column-position detection
-#   - Duplicate removal
-#   - Excel output
-#   - Error log
-#   - Streamlit Cloud safe
-#
-# ============================================================
-
 import gc
 import io
 import re
